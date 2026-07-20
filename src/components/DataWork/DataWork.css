@@ -3,7 +3,7 @@
 	margin-bottom: 50px;
 	font-size: 38px;
 	font-weight: 700;
-	color: #00B8D4;
+	color: var(--primary);
 	text-align: center;
 	letter-spacing: -1px;
 }

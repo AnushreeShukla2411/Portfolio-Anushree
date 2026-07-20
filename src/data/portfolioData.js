@@ -31,6 +31,11 @@ export const skillsData = [
 		body: "Python | Pandas | NumPy | SQL"
 	},
 	{
+		id: "cloud",
+		header: "Cloud",
+		body: "AWS | Databricks | Microsoft Fabric"
+	},
+	{
 		id: "visualization",
 		header: "Visualization",
 		body: "Tableau | Power BI | Matplotlib | Seaborn"
@@ -56,27 +61,37 @@ export const projectsData = [
 	{
 		projectTitle: "Team Performance Tracking Portal",
 		projectTools: "Power BI | SQL Database",
-		projectDescription: "Designed and developed a performance KPI dashboard using Power BI to analyze employee metrics for HR and operations teams."
+		projectDescription: "Designed and developed a performance KPI dashboard using Power BI to analyze employee metrics for HR and operations teams.",
+		liveLink: "https://github.com/anushreeshukla",
+		githubLink: "https://github.com/anushreeshukla"
 	},
 	{
 		projectTitle: "Customer Churn Prediction Model",
 		projectTools: "Python | SQL | Tableau",
-		projectDescription: "Built a predictive churn analysis workflow and dashboard that helps identify high-risk customer segments and retention triggers."
+		projectDescription: "Built a predictive churn analysis workflow and dashboard that helps identify high-risk customer segments and retention triggers.",
+		liveLink: "https://github.com/anushreeshukla",
+		githubLink: "https://github.com/anushreeshukla"
 	},
 	{
 		projectTitle: "Sales & Inventory Forecast Tool",
 		projectTools: "Python | Prophet | Streamlit",
-		projectDescription: "Developed a time-series forecasting application predicting seasonal demand patterns to optimize retail warehouse inventory levels."
+		projectDescription: "Developed a time-series forecasting application predicting seasonal demand patterns to optimize retail warehouse inventory levels.",
+		liveLink: "https://github.com/anushreeshukla",
+		githubLink: "https://github.com/anushreeshukla"
 	},
 	{
 		projectTitle: "Marketing Campaign ROI Analyzer",
 		projectTools: "Excel | SQL | Power BI",
-		projectDescription: "Developed an attribution modeling dashboard to measure marketing channel effectiveness and optimize budget allocation."
+		projectDescription: "Developed an attribution modeling dashboard to measure marketing channel effectiveness and optimize budget allocation.",
+		liveLink: "https://github.com/anushreeshukla",
+		githubLink: "https://github.com/anushreeshukla"
 	},
 	{
 		projectTitle: "Supply Chain Inventory Optimizer",
 		projectTools: "Python | MySQL | Tableau",
-		projectDescription: "Created an interactive warehouse stock monitoring system using predictive analytics to minimize safety stock levels."
+		projectDescription: "Created an interactive warehouse stock monitoring system using predictive analytics to minimize safety stock levels.",
+		liveLink: "https://github.com/anushreeshukla",
+		githubLink: "https://github.com/anushreeshukla"
 	}
 ];
 

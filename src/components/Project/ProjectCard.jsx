@@ -1,7 +1,5 @@
 import "./ProjectCard.css";
 import ProjectBackground from "../../assets/ProjectBackground.png";
-import Database from "../../assets/Database2.png";
-import TopRight from "../../assets/top-right-arrow.png";
 
 const ProjectCard = (props) => {
 	return (
@@ -13,8 +11,12 @@ const ProjectCard = (props) => {
 				backgroundSize: "auto",
 			}}>
 			<div className="top-right">
-				<img src={Database} alt="" />
-				<img className="arrow" src={TopRight} alt="" />
+				<a href={props.data.liveLink} target="_blank" rel="noreferrer" className="project-btn live">
+					Live
+				</a>
+				<a href={props.data.githubLink} target="_blank" rel="noreferrer" className="project-btn github">
+					GitHub
+				</a>
 			</div>
 			<div className="project-title">{props.data.projectTitle}</div>
 			<div className="project-tools">{props.data.projectTools}</div>

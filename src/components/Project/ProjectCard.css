@@ -15,39 +15,51 @@
 	position: absolute;
 	height: 142px;
 	width: 124px;
-	background-color: #73c1ff15;
-	/* border: 1.5px solid #73c1ff; */
-	border-radius: 20px;
 	right: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	transition: var(--transition);
+}
+
+.project-btn {
+	width: 90px;
+	height: 38px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transition: var(--transition);
+	font-size: 13px;
+	font-weight: 600;
+	border-radius: 10px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	cursor: pointer;
 }
 
-.project-card:hover .top-right {
-	background-color: #73c1ff25;
-	border-color: #00b8d4;
+.project-btn.live {
+	background-color: #73c1ff;
+	color: #ffffff;
+	border: 1px solid #73c1ff;
 }
 
-.top-right img:not(.arrow) {
-	width: 44px;
-	height: 44px;
-	object-fit: contain;
+.project-btn.live:hover {
+	background-color: #55b3ff;
+	border-color: #55b3ff;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 10px rgba(115, 193, 255, 0.3);
 }
 
-.arrow {
-	position: absolute;
-	top: 38px;
-	right: 28px;
-	width: 24px;
-	height: 24px;
-	object-fit: contain;
-	transition: var(--transition);
+.project-btn.github {
+	background-color: transparent;
+	color: #73c1ff;
+	border: 1px solid #73c1ff;
 }
 
-.project-card:hover .arrow {
-	transform: translate(3px, -3px) scale(1.1);
+.project-btn.github:hover {
+	background-color: rgba(115, 193, 255, 0.1);
+	transform: translateY(-2px);
 }
 
 .project-title {

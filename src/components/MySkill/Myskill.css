@@ -96,6 +96,12 @@
 	text-align: right;
 }
 
+.skillset-cloud {
+	bottom: 22%;
+	right: calc(50% + 120px);
+	text-align: right;
+}
+
 .skillset-qa {
 	top: 32%;
 	left: calc(50% + 145px);
@@ -121,6 +127,7 @@
 /* Responsive design */
 @media (max-width: 1024px) {
 	.skillset-visualization { right: calc(50% + 120px); }
+	.skillset-cloud { right: calc(50% + 90px); }
 	.skillset-qa { left: calc(50% + 120px); }
 	.skillset-database { left: calc(50% + 90px); }
 }

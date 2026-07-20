@@ -42,6 +42,11 @@ const MySkill = () => {
 					<div className="skill-header">{getSkill("visualization").header}</div>
 					<div className="skill-body">{getSkill("visualization").body}</div>
 				</div>
+				
+				<div className="skillset skillset-cloud">
+					<div className="skill-header">{getSkill("cloud").header}</div>
+					<div className="skill-body">{getSkill("cloud").body}</div>
+				</div>
 			</div>
 		</div>
 	);
