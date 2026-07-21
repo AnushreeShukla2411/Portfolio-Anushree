@@ -91,7 +91,7 @@ export const projectsData = [
 		projectTools: "Python | MySQL | Tableau",
 		projectDescription: "Created an interactive warehouse stock monitoring system using predictive analytics to minimize safety stock levels.",
 		liveLink: "https://github.com/anushreeshukla",
-		githubLink: "https://github.com/anushreeshukla"
+		githubLink: "https://github.com/anushreeshukla123"
 	}
 ];
 
