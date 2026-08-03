@@ -84,6 +84,6 @@ export const projectsData = [
 export const contactData = {
 	email: "anushreeshukla24@gmail.com",
 	linkedin: "www.linkedin.com/in/anushreeshukla24",
-	github: "https://github.com/AnushreeShukla2411,
+	github: "https://github.com/AnushreeShukla2411",
 	stayConnectedDesc: "Thank you for visiting my portfolio. I'm actively seeking Data Analyst opportunities where I can leverage SQL, Python, Power BI, and machine learning to solve business problems through data. I'm always open to discussing analytics, collaboration, innovative projects, and new opportunities."
 };
