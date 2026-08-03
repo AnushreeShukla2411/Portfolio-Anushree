@@ -62,15 +62,15 @@ export const projectsData = [
 		projectTitle: "Diabetes Risk Assessment Dashboard",
 		projectTools: "Python | Power BI | scikit-learn | Logistic Regression",
 		projectDescription: "Built a machine learning model achieving 72.73% prediction accuracy and 0.84 ROC-AUC by applying data cleaning, feature engineering, and Logistic Regression. Designed an interactive Power BI dashboard to visualize patient risk levels, clinical KPIs, and predictive insights.",
-		liveLink: "https://github.com/anushreeshukla",
-		githubLink: "https://github.com/anushreeshukla"
+		liveLink: "https://app.powerbi.com/view?r=eyJrIjoiZTdkNzJmZjgtM2IzZi00ZDIwLTlmZTYtNTQyZGJkNzgyZDdkIiwidCI6ImZlMWQ5NWE5LTRjZTEtNDFhNS04ZWFiLTZkZDQzYWEyNmQ5ZiJ9",
+		githubLink: "https://github.com/AnushreeShukla2411/-Diabetes-Risk-Prediction-Dashboard"
 	},
 	{
 		projectTitle: "Health News Analytics Dashboard",
 		projectTools: "Python | SQL | SQLite | Power BI | NLP",
 		projectDescription:	"Developed an end-to-end ETL pipeline that extracted 160+ health news articles from RSS feeds, transformed and stored data in SQLite, applied NLP-based sentiment analysis and topic classification, and built an interactive Power BI dashboard to uncover trends and business insights.",
-		liveLink: "https://github.com/anushreeshukla",
-		githubLink: "https://github.com/anushreeshukla"
+		liveLink: "https://app.powerbi.com/view?r=eyJrIjoiNTQ2NTU4NmQtNDJjZS00ZmM5LWI4ZDYtOTBlY2RhY2FiY2E4IiwidCI6ImZlMWQ5NWE5LTRjZTEtNDFhNS04ZWFiLTZkZDQzYWEyNmQ5ZiJ9",
+		githubLink: "https://github.com/AnushreeShukla2411/Health-News-Article-Dashboard"
 	},
 	{
 		projectTitle: "Team Performance Tracking Portal",
