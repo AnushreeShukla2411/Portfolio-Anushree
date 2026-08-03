@@ -6,7 +6,7 @@ export const heroData = {
 	location: "India",
 	languages: "English & Hindi",
 	role: "Data Analyst",
-	bio: "Detail-oriented Data Analyst with expertise in data validation, reporting, and root cause analysis. Skilled in deriving insights through statistical modeling and data visualization to support business decisions."
+	bio: "Data Analyst with 2+ years of experience transforming raw data into actionable business insights through SQL, Python, Power BI, and Tableau. Experienced in data validation, ETL, dashboard development, machine learning, and NLP, with a strong foundation in building end-to-end analytics solutions that improve data quality and support data-driven decision-making.."
 };
 
 export const skillsData = [
@@ -18,7 +18,7 @@ export const skillsData = [
 	{
 		id: "qa",
 		header: "QA & Dev Tools",
-		body: "Azure DevOps | Microsoft Office Suite | Browser DevTools"
+		body: "Azure DevOps | Microsoft Office Suite | Jira | GitHub"
 	},
 	{
 		id: "database",
@@ -28,7 +28,7 @@ export const skillsData = [
 	{
 		id: "languages",
 		header: "Languages",
-		body: "Python | Pandas | NumPy | SQL"
+		body: "Python | Pandas | NumPy | SQL | scikit-learn"
 	},
 	{
 		id: "cloud",
@@ -38,66 +38,53 @@ export const skillsData = [
 	{
 		id: "visualization",
 		header: "Visualization",
-		body: "Tableau | Power BI | Matplotlib | Seaborn"
+		body: "Tableau | Power BI | Matplotlib | Power Query"
 	}
 ];
 
 export const dataWorkData = [
 	{
 		title: "Data Cleansing",
-		para: "The process of detecting and correcting errors or inconsistencies in data to improve its quality."
+		para: "Analyze structured and unstructured datasets using SQL and Python to uncover trends, identify anomalies, and generate actionable business insights."
 	},
 	{
 		title: "Data Visualization",
-		para: "The graphical representation of data to make patterns, trends, and insights easier to understand."
+		para: "Build interactive Power BI dashboards with KPIs, DAX measures, filters, and drill-down capabilities to support business reporting and decision-making."
 	},
 	{
-		title: "Data Exploration",
-		para: "Analyzing datasets to summarize their main characteristics, identify patterns, and guide further modeling."
+		title: "ETL & Data Preparation",
+		para: "Design ETL workflows to extract, clean, transform, and validate data from multiple sources, ensuring high-quality datasets for reporting and analytics."
+"
 	}
 ];
 
 export const projectsData = [
 	{
+		projectTitle: "Diabetes Risk Assessment Dashboard",
+		projectTools: "Python | Power BI | scikit-learn | Logistic Regression",
+		projectDescription: "Built a machine learning model achieving 72.73% prediction accuracy and 0.84 ROC-AUC by applying data cleaning, feature engineering, and Logistic Regression. Designed an interactive Power BI dashboard to visualize patient risk levels, clinical KPIs, and predictive insights.",
+		liveLink: "https://github.com/anushreeshukla",
+		githubLink: "https://github.com/anushreeshukla"
+	},
+	{
+		projectTitle: "Health News Analytics Dashboard",
+		projectTools: "Python | SQL | SQLite | Power BI | NLP",
+		projectDescription:	"Developed an end-to-end ETL pipeline that extracted 160+ health news articles from RSS feeds, transformed and stored data in SQLite, applied NLP-based sentiment analysis and topic classification, and built an interactive Power BI dashboard to uncover trends and business insights.",
+		liveLink: "https://github.com/anushreeshukla",
+		githubLink: "https://github.com/anushreeshukla"
+	},
+	{
 		projectTitle: "Team Performance Tracking Portal",
-		projectTools: "Power BI | SQL Database",
-		projectDescription: "Designed and developed a performance KPI dashboard using Power BI to analyze employee metrics for HR and operations teams.",
-		liveLink: "https://github.com/anushreeshukla",
-		githubLink: "https://github.com/anushreeshukla"
-	},
-	{
-		projectTitle: "Customer Churn Prediction Model",
-		projectTools: "Python | SQL | Tableau",
-		projectDescription: "Built a predictive churn analysis workflow and dashboard that helps identify high-risk customer segments and retention triggers.",
-		liveLink: "https://github.com/anushreeshukla",
-		githubLink: "https://github.com/anushreeshukla"
-	},
-	{
-		projectTitle: "Sales & Inventory Forecast Tool",
-		projectTools: "Python | Prophet | Streamlit",
-		projectDescription: "Developed a time-series forecasting application predicting seasonal demand patterns to optimize retail warehouse inventory levels.",
-		liveLink: "https://github.com/anushreeshukla",
-		githubLink: "https://github.com/anushreeshukla"
-	},
-	{
-		projectTitle: "Marketing Campaign ROI Analyzer",
-		projectTools: "Excel | SQL | Power BI",
-		projectDescription: "Developed an attribution modeling dashboard to measure marketing channel effectiveness and optimize budget allocation.",
-		liveLink: "https://github.com/anushreeshukla",
-		githubLink: "https://github.com/anushreeshukla"
-	},
-	{
-		projectTitle: "Supply Chain Inventory Optimizer",
-		projectTools: "Python | MySQL | Tableau",
-		projectDescription: "Created an interactive warehouse stock monitoring system using predictive analytics to minimize safety stock levels.",
+		projectTools: "Power BI | MySQL | Excel",
+		projectDescription: "Designed a KPI-driven Power BI dashboard to analyze performance data for 50+ employees. Performed ETL using SQL and Excel, created interactive visualizations, and delivered actionable insights supporting HR reporting and performance evaluation.",
 		liveLink: "https://github.com/anushreeshukla",
 		githubLink: "https://github.com/anushreeshukla123"
 	}
 ];
 
 export const contactData = {
-	email: "anushreeshukla.job@gmail.com",
-	linkedin: "https://linkedin.com/in/anushreeshukla",
-	github: "https://github.com/anushreeshukla",
-	stayConnectedDesc: "I'm always open to discussing data-driven solutions, collaboration opportunities, or sharing insights on turning numbers into narratives. Feel free to reach out whether it's about a project, a role, or a good data challenge."
+	email: "anushreeshukla24@gmail.com",
+	linkedin: "www.linkedin.com/in/anushreeshukla24",
+	github: "https://github.com/AnushreeShukla2411,
+	stayConnectedDesc: "Thank you for visiting my portfolio. I'm actively seeking Data Analyst opportunities where I can leverage SQL, Python, Power BI, and machine learning to solve business problems through data. I'm always open to discussing analytics, collaboration, innovative projects, and new opportunities."
 };
