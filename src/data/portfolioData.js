@@ -54,7 +54,6 @@ export const dataWorkData = [
 	{
 		title: "ETL & Data Preparation",
 		para: "Design ETL workflows to extract, clean, transform, and validate data from multiple sources, ensuring high-quality datasets for reporting and analytics."
-"
 	}
 ];
 
